@@ -21,4 +21,20 @@ img {
 }
 .mainContainer {
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.asideFlex {
+    display: inline-block;
+    width: 15%;
+    height: 10vh;
+    border: 1px cornflowerblue solid;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: mintcream;
 }
